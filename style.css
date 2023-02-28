@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+body{
+    background-color: rgb(32, 3, 87);
+    font-family: 'Golos Text', sans-serif;
+    overflow-x: hidden;
+}
+
+.main{
+    height: 25rem;
+    width: 37.5rem;
+    color: white;
+    background-color: rgb(59, 20, 131);
+}
+
+.objects{
+    gap: 0.625rem;
+}
+
+span{
+    color: white;
+}
+
+.calculate{
+    background-color: rgb(194, 1, 1);
+    color: white;
+}
+
+.calculate:hover{
+    background-color: rgba(255, 255, 255, 0.918);
+    color: black;
+}
+
+
+.clean{
+    background-color: white;
+}
+
+.clean:hover{
+    background-color: rgba(255, 255, 255, 0.918);
+    color: black;
+}
+
+.table{
+    color: white;
+}
+
+.situation{
+    font-weight: bold;
+}
