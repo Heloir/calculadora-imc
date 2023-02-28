@@ -7,13 +7,17 @@ const primarypage = document.querySelector('.objects')
 const secondpage = document.querySelector('.results')
 const situation = document.querySelector('.situation')
 
+
 measurevalue.addEventListener('input', (measuremask) =>{
     measuremask = measurevalue
-    
     if(measuremask.value.length == 1){
         measuremask.value = measuremask.value += '.'
     }
 })
+
+
+
+
 
 cleanbutton.addEventListener('click', () =>{
     weightvalue.value = ''

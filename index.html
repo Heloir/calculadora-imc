@@ -18,11 +18,11 @@
             <h1>Calculadora</h1>
             <label for="kg">
                 <p>Informe seu peso (kg)</p>
-                <input type="number" class="inputweight" placeholder="ex: 60.5">
+                <input type="text" class="inputweight" placeholder="ex: 60.5" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');" >
             </label>
             <label for="metro/cm">
                 <p>Informe sua altura (metro e cm)</p>
-                <input type="text" class="inputmeasure" maxlength="4" placeholder="ex: 1.74">
+                <input type="text" class="inputmeasure" maxlength="4" placeholder="ex: 1.74" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');" >
             </label>
             <div class="buttons">
                 <button class="btn calculate">Calcular</button>

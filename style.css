@@ -48,3 +48,12 @@ span{
 .situation{
     font-weight: bold;
 }
+
+@media (max-width:500px) {
+    th{
+        font-size: 3vw;
+    }
+    td{
+        font-size: 3vw;
+    }
+}
