@@ -8,9 +8,10 @@ Link para testar o projeto : <a href="https://imc-calculate-portifolio.netlify.a
 
 Skills Usadas :
 
-HTML5
-CSS3
-BootStrap
-JavaScript
-NodeJS
- 
+
+ <p>HTML5</p>
+ <p>CSS3</p>
+ <p>BootStrap</p>
+ <p>JavaScript</p>
+ <p>NodeJS</p
+
